@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Programme en HTML</title>
+  </head>
+  <body><!-- Menu de navigation du site -->
+<ul class="navbar">
+</ul>
+
+<!-- Contenu principal -->
+<h1>Ma première page avec du CSS</h1>
+<style type="text/css">
+  body {
+    color: green;
+    background-color: #000000 }
+  </style>
+
+<p>TEST DU CSS 
+
+<p>Site du lycée : <li><a href="https://lyc-dumas-ales.ac-montpellier.fr/">-JBD</a>
+&hellip;
+
+<p>Lien vers L'ent : <li><a href ="https://jean-baptiste-dumas-ales.mon-ent-occitanie.fr/">-ENT</a>
+
+<!-- Signer et dater la page, c'est une question de politesse! -->
+
+<address>Fait le 17/09/2019
+  par Léon Lasbouygues TS1.</address>
+    
+  </body>
+<Font color="#FF0000">  
+</html>
