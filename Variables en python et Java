@@ -1,16 +1,22 @@
-#Wassim est une fonction permettant de récupérer les données a et b 
-def Wassim(a, b):
-    a = int (input())
-    b = int (input())
-    return(Wassim)
-#Michel sert a définir le nombre de valeur que va donner le programme et les calculer 
-def Michel(x, y):
-    y=0
-    for x in range (11):
-    y = a*x+b
-    return y
-#Francis permet de donner les valeurs de la fonction a*x+b 
-def Francis(Michel):
-    Francis = y
-    return y
-print (Francis)
+#Wassim est une fonction permettant de récupérer les données a et b (ce sont des réels)
+def Wassim():
+    a=int(input())
+    b=int(input())
+    h=''
+    return a,b,h
+#Michel sert a définir le nombre de valeur que va donner le programme et les calculer ici il y en a 10
+def Michel():
+    for x in range (0,10):
+        w=int(a*x+b)
+        p=str(w)
+        h=h + ' ' +p
+    return h
+#Francis permet de donner les valeurs de la fonction a*x+b en les calculants 
+def Francis():
+    print(h)
+
+a,b,h=Wassim()
+
+h=Michel()
+
+Francis()
