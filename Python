@@ -1,0 +1,19 @@
+def entree():
+    a = int(input())
+    b = int(input())
+    return a,b
+
+def calcul (Min, Max):
+    add=0
+    while Min<Max:
+        if Min%5==0:
+            add = add + Min
+        Min = Min+1
+    return add
+    
+def sortie():
+    print(resultat)
+
+Min, Max = entree()
+resultat = calcul(Min, Max)
+sortie()
