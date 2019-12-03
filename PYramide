@@ -1,0 +1,39 @@
+print ('Il ne faut pas avoir une valeur de base inférieure a celle des étages')
+print ('Vous avez le choix du motif: étoile/O/quatre')
+print ('Taille de la base')
+base=int(input())
+print ('Nombre d etages')
+etage=int(input())
+print ('Motif')
+motif=str(input())
+b=base
+h=etage
+
+def dessin(b, h):
+    n=0
+    nbrdemotif=b-2*(h-1)
+    vide=(h-1)
+    return nbrdemotif, vide, n
+nbrdemotif, vide, n=dessin(b, h)
+
+
+if (motif=='étoile'):
+    while(n<h):
+        print (vide*' ',nbrdemotif*'*')
+        vide-=1
+        nbrdemotif+=2
+        n+=1 
+elif (motif=='O'):
+    while(n<h):
+        print (vide*' ',nbrdemotif*'O')
+        vide-=1
+        nbrdemotif+=2
+        n+=1
+elif (motif=='quatre'):
+    while(n<h):
+        print (vide*' ',nbrdemotif*'4')
+        vide-=1
+        nbrdemotif+=2
+        n+=1
+else:
+    print ('Ce n est pas possible')
